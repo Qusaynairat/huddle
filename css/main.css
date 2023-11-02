@@ -177,7 +177,10 @@ background-size:cover ;
 .contact{
     width: 33.33%;
 }
-
+.contact a{
+    color: white;
+    text-decoration: none;
+}
 .section3 p{
     margin-left: 30px;
     padding-top: 20px;
