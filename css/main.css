@@ -9,6 +9,7 @@
     width: 80%;
     margin:auto;
 }
+/* section1 */
 .section1{
 position: relative;
 background-color: hsl(193, 100%, 96%);
@@ -77,4 +78,49 @@ background-size:cover ;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     box-shadow: 0px 0px 6px 3px rgba(322, 100, 66, 0.226);
+}
+/* end section1 */
+/* section2  */
+.section2{
+    position: relative;
+    overflow: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10%;
+}
+.section2 .cont{
+    width:80%;
+    margin: auto;
+}
+.section2 .div{
+    width: 100%;
+    margin-top: 3%;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.226);
+    border-radius: 10px;
+}
+.section2 .div .txt{
+    padding-top:15%;
+    width: 50%;
+    float: left;
+}
+.section2 .div .txt h3{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color: hsl(192, 100%, 9%);
+}
+.section2 .div .txt p{
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color:hsl(210, 4%, 28%);
+    width: 75%;
+}
+.section2 .div .img{
+    width: 50%;
+    float: left;
+}
+.section2 .div img{
+    width: 80%;
+    padding:10%;
 }
