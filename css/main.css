@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+.section1{
+position: relative;
+background-color: hsl(193, 100%, 96%);
+height: 96vh;
+background-image: url(../img/bg-hero-desktop.svg);
+overflow: auto;
+background-size:cover ;
+}
+.section1 .navbar{
+    position: relative;
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.section1 .navbar input{
+    height: 40px;
+    padding: 5px;
+    background-color: white;
+    border-style: none;
+    position:absolute;
+    right: 8px;
+    border-radius: 30px;
+    width: 140px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.226);
+}
+.section1 .txt {
+    width: 45%;
+    float: left;
+    margin-top: 100px;
+}
+.section1 .txt h2{
+    margin-top: 120px;
+    text-transform: capitalize;
+    color: hsl(192, 100%, 9%);
+    width: 55%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.section1 .txt p{
+    padding-top: 20px;
+    width: 72%;
+    color:hsl(210, 4%, 28%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section1 .img1{
+    margin-top: 100px;
+    width:55%;
+    float: left;
+}
+.section1  .img1 img{
+    width: 100%;
+}
+.section1 .btn2{
+    padding: 5px;
+    margin-top: 40px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-style: none;
+    margin-bottom: 50px;
+    right: 10px;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 0px 6px 3px rgba(322, 100, 66, 0.226);
+}
